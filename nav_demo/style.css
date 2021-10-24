@@ -1,0 +1,224 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Verdana,sans-serif;
+    font-size: 20px;
+    line-height: 1.5;  
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    background: #100F10;
+    color: white;
+}
+.burger{
+    flex: 0 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.title{
+    flex: 1 1 auto;
+    padding: 20px 30px;
+}
+.menu{
+    flex: 0 1 auto;
+    display: flex;
+    
+}
+.menu div{
+    padding: 20px 30px;
+}
+
+.second__nav{
+    margin-top: 20px;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.nav2{
+    display: flex;
+    align-items: center;
+    background: #6A26CD;
+    color: white;
+}
+.berger__sec{
+    flex: 0 0 64px;
+    padding: 20px 30px;
+}
+.title___sec{
+    flex: 1 1 auto;
+}
+.menu__sec{
+    display: flex;
+    flex:  0 0 auto;
+}
+.user{
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 30px;
+}
+.menu__sec i {
+    padding: 20px 20px;
+}
+.user div{
+    padding-right: 10px;
+}
+.third__nav{
+    color: #000;
+}
+
+.nav3{
+    display: flex;
+    background: rgb(233, 232, 232) ;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.bl{
+    border-left: 2px solid #cacaca;
+}
+
+.berger__third{
+    flex: 0 0 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title___third{
+    flex: 1 1 auto;
+    padding: 20px 40px;
+    text-align: center;
+}
+.menu__third{
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.user{
+    flex: 0 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.user__third i{
+    padding: 20px 40px;
+}
+.menu__third i{
+    padding: 20px 10px;
+}
+
+.nav4{
+    display: flex;
+    align-items: center;
+    color: white;
+    background: #6A26CD;
+}
+.logo_four{
+    flex: 0 0 64px;
+    background: rgba(0, 0, 0, 0.22);
+    padding: 20px 30px;
+}
+.title_four{
+    flex: 1 1 auto;
+    padding-left: 75px ;
+}
+.title_four .breadcrumb_four{
+    display: flex;
+    
+}
+.breadcrumb_four span{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.menu_four{
+    flex: 0 0 auto;
+    display: flex;
+    padding-right: 5rem;
+}
+.menu_four i{
+    padding: 0 2rem ;
+}
+
+.five__nav{
+    margin-top: 1rem;
+}
+.nav5{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #376BF1;
+
+}
+.end_five{
+    display: flex;
+    flex: 0 0 340px;
+    align-items: center;
+    justify-content: center;
+}
+.end_five.right_five{
+    justify-content: flex-end;
+}
+.logo_five {
+    flex: 0 0 64px;
+    padding: 20px 30px;
+}
+.title_five{
+    flex: 0 0 auto;
+}
+.breadcrumb_five{
+    display: flex;
+}
+.breadcrumb_five span{
+    font-size: 15px;
+    opacity: 0.6;
+}
+.right_five i{
+    padding: 0 1rem;
+}
+
+.six__nav{
+    margin-top: 6rem;
+}
+.nav6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #100F10;
+    color: #cacaca;
+}
+.end_six{
+    flex: 0 0 180px;
+    display: flex;
+    align-items: center;
+}
+.end_six.right_six{
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+.logo_six{
+    margin-left: 1rem;
+}
+.menu_six{
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.menu_six i{
+    padding: 20px 10px;
+}
+
+svg, use{
+    width: 40px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

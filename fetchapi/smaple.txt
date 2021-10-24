@@ -1,0 +1,8 @@
+<pre>
+methods(){
+    print(Hello);
+        if(i<2){
+            print(i);
+        }
+}
+</pre>

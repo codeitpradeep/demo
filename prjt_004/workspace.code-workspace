@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\LearnProjects"
+		},
+		{
+			"path": "..\\..\\..\\DFT_prjts"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Web_Develop"
+	}
+}
