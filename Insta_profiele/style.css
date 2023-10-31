@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+}
+:root{
+    --primryclr :rgb(255, 173, 189);
+    --primryblk: rgba(0, 0, 0, 0.774);
+}
+
+.container{
+    margin-top: 30%;
+}
+
+.img_pfl{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    clip-path: circle(40%);
+}
+.profile{
+    margin-top: 50%;
+    max-width: 500px;
+    margin: 0;
+    background-color: var(--primryblk);
+}
+.container, .user ,.follow_btn,
+.imglogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+.user , .follow_btn{
+    padding: 5px 30px;
+}
+.follow_btn{
+    padding: 20px 10px;
+}
+.follow_btn a{
+    width: auto;
+    padding: 5px 20px;
+    background-color: slateblue;
+    color: snow;
+    border: 2px solid slateblue;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.img_pfl{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    clip-path: circle(40%);
+}
+.container, .user , .imglogo , .follow_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+.profile{
+    max-width: 500px;
+    margin: 0;
+    background-color: var(--primryblk);
+}
+.user, .follow_btn{
+    padding: 5px 10px;
+}
+.follow_btn{
+    padding: 20px 10px;
+}
+.follow_btn a{
+    width: auto;
+    padding: 5px 20px;
+    background-color: slateblue;
+    color: snow;
+    border: 2px solid  slateblue;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+/*
+.dis__icons{
+    padding: 10px;
+    cursor: pointer;
+}
+.menu__sidebar{
+    position: fixed;
+    background:rgb(255, 173, 189);
+    width: 9rem;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;   
+}
+.close__icons{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.menu__sidebar a{
+    color: black;
+    padding: 20px 10px;
+}
+.sidebar{
+    transform: translateX(-100%);
+    transition: transform 0.5s ease-out;
+}
+.sidebar.active{
+    transform: translateX(0%);
+}
+*/
